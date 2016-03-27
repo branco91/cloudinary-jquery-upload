@@ -1,6 +1,6 @@
 Package.describe({
 
-  name: 'branco91:cloudinary-jquery-upload',
+  name: 'juniobranco:cloudinary-jquery-upload',
   version: '0.1.0',
   summary: 'Support libraries for image uploads to Cloudinary using jQuery.',
   git: 'https://github.com/branco91/cloudinary-jquery-upload',
@@ -16,7 +16,6 @@ Package.onUse(function(api) {
 
   api.add_files([
     'vendor/jquery.ui.widget.js',
-    'vendor/jquery.ui.widget.js',
     'vendor/jquery.iframe-transport.js',
     'vendor/jquery.fileupload.js',
     'vendor/jquery.cloudinary.js',
@@ -24,7 +23,7 @@ Package.onUse(function(api) {
     'vendor/canvas-to-blob.min.js',
     'vendor/jquery.fileupload-process.js',
     'vendor/jquery.fileupload-image.js',
-    'vendor/jquery.fileupload-validate.js',
+    'vendor/jquery.fileupload-validate.js'
     ], 'client');
 
 });
